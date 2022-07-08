@@ -15,8 +15,14 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .list .current {
   color: var(--accent-color);
@@ -33,6 +39,13 @@ body {
 }
 
 /*Header Nav*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  
+  outline: 2px solid tomato;
+}
 .logo {
   color: var(--accent-color);
 }
@@ -40,6 +53,7 @@ body {
 .header-nav a {
   color: var(--title-text-color);
   text-decoration: none;
+  
 }
 .header-contacts-list a {
   color: var(--primary-text-color);
@@ -75,6 +89,7 @@ body {
 /*hero*/
 .hero {
   background-color: var(--hero-color);
+  text-align: center;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -83,9 +98,10 @@ body {
   font-size: 44px;
   line-height: 1.36;
 
-  text-align: center;
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 /*section*/
@@ -203,6 +219,9 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+   text-align: center;
 }
 .button.primary {
   color: var(--primary-white-color);
@@ -213,11 +232,15 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em
 
-  display: flex;
+  
   align-items: center;
 
   letter-spacing: 0.06em;
+  padding: 10px 32px;
+  min-width: 200px;
+ 
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -234,6 +257,8 @@ body {
   line-height: 1.62;
 
   letter-spacing: 0.03em;
+  padding: 6px 22px;
+  min-width: 73px;
 }
 
 .button.button.secondary:hover {
