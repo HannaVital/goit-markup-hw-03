@@ -7,6 +7,9 @@
   --transparent-white-color: rgba(255, 255, 255, 0.6);
   --hero-color: #2f303a;
   --button-hover: #188ce8;
+  --border-color:#ECECEC;
+  --border-color-portfolio:#EEEEEE;
+
 }
 
 body {
@@ -50,6 +53,9 @@ img {
 
 
 /*Header Nav*/
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
 .container {
   margin: 0 auto;
   
@@ -58,7 +64,7 @@ img {
   padding-right: 15px;
   
   
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
 .header-container {
   display: flex;
@@ -238,6 +244,7 @@ img {
 .team-caption {
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 .team-position {
   font-size: 16px;
@@ -286,12 +293,14 @@ img {
 .portfolio-caption {
   padding-top: 20px ;
   padding-bottom: 20px ;
+  border: 1px solid var(--border-color-portfolio);
 }
 .portfolio-product {
   font-size: 16px;
   line-height: 1.88;
 
   letter-spacing: 0.03em;
+  color: var(--primary-text-color)
 }
 
 
