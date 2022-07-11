@@ -20,19 +20,17 @@
   <body>
     <!-- Header section -->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
-          <a class="header-logo header-link" href=""
-            ><span class="logo">Web</span>Studio</a
+          <a class="header-logo link header-link" href="">
+            <span class="logo">Web</span>Studio</a
           >
           <ul class="header-list list">
             <li class="header-item">
-              <a class="header-link" href="./index.html">Студия</a>
+              <a class="header-link current" href="./index.html">Студия</a>
             </li>
             <li class="header-item">
-              <a class="header-link current" href="./portfolio.html"
-                >Портфолио</a
-              >
+              <a class="header-link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="header-item">
               <a class="header-link" href="">Контакты</a>
@@ -57,7 +55,8 @@
     <main class="main">
       <section class="main-filter section">
         <div class="container">
-          <h1 class="filter-hdr section-title hidden">Фильтр</h1>
+          <!--Buttons-->
+          <h1 class="filter-hdr section-title visually-hidden">Фильтр</h1>
           <ul class="filter-list list">
             <li class="filter-item">
               <button type="button" class="filter-btn button secondary">
@@ -85,6 +84,7 @@
               </button>
             </li>
           </ul>
+          <!--Work examples-->
           <h1 class="header-portfolio section-title hidden">Потрфолио</h1>
           <ul class="portfolio-list list">
             <li class="portfolio-item">
@@ -93,10 +93,12 @@
                   class="portfolio-img"
                   src="./іmages/img1.2.jpg"
                   alt="Лептоп с открытой страницей сайта Технокряк"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">Технокряк</h2>
-                <p class="portfolio-product">Веб-сайт</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">Технокряк</h2>
+                  <p class="portfolio-product">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -105,12 +107,14 @@
                   class="portfolio-img"
                   src="./іmages/img2.2.jpg"
                   alt="Постер с двумя играющими баскетболистами"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="portfolio-product">Дизайн</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio-product">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -119,10 +123,12 @@
                   class="portfolio-img"
                   src="./іmages/img3.2.jpg"
                   alt="Эмблема ресторана Seafood"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">Ресторан Seafood</h2>
-                <p class="portfolio-product">Приложение</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">Ресторан Seafood</h2>
+                  <p class="portfolio-product">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -131,10 +137,12 @@
                   class="portfolio-img"
                   src="./іmages/img4.2.jpg"
                   alt="Наушники"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">Проект Prime</h2>
-                <p class="portfolio-product">Маркетинг</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">Проект Prime</h2>
+                  <p class="portfolio-product">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -143,10 +151,12 @@
                   class="portfolio-img"
                   src="./іmages/img5.2.jpg"
                   alt="Коробки"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">Проект Boxes</h2>
-                <p class="portfolio-product">Приложение</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">Проект Boxes</h2>
+                  <p class="portfolio-product">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -155,10 +165,12 @@
                   class="portfolio-img"
                   src="./іmages/img6.2.jpg"
                   alt="Монитор с открытой страницей вебсайта"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                <p class="portfolio-product">Веб-сайт</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="portfolio-product">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -167,10 +179,12 @@
                   class="portfolio-img"
                   src="./іmages/img7.2.jpg"
                   alt="Разворот журнала Limited Edition"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">Издание Limited Edition</h2>
-                <p class="portfolio-product">Дизайн</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">Издание Limited Edition</h2>
+                  <p class="portfolio-product">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -179,10 +193,12 @@
                   class="portfolio-img"
                   src="./іmages/img8.2.jpg"
                   alt="Этикетка LAB"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">Проект LAB</h2>
-                <p class="portfolio-product">Маркетинг</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">Проект LAB</h2>
+                  <p class="portfolio-product">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="portfolio-item">
@@ -191,10 +207,12 @@
                   class="portfolio-img"
                   src="./іmages/img9.2.jpg"
                   alt="Руки пользователя за лептопом с открытым приложением Growing Business"
-                  width="322"
+                  width="370"
                 />
-                <h2 class="portfolio-title">Growing Business</h2>
-                <p class="portfolio-product">Приложение</p>
+                <div class="portfolio-caption">
+                  <h2 class="portfolio-title">Growing Business</h2>
+                  <p class="portfolio-product">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
