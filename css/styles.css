@@ -298,6 +298,8 @@ img {
   padding-top: 20px ;
   padding-bottom: 20px ;
   border: 1px solid var(--border-color-portfolio);
+  padding: 20px 24px;
+ 
 }
 .portfolio-product {
   font-size: 16px;
